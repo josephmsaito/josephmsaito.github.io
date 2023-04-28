@@ -159,6 +159,7 @@ nav ul li a::after{
 	font-size: 1.2rem;
 	color: rgb(94, 94, 94);
 	font-weight: 700;
+	margin: 0rem;
 
 }
 .sidenav_text{
@@ -419,7 +420,7 @@ nav ul li a::after{
 	transition: transform 200ms linear;
 }
 
-.research-link{
+/* .research-link{
 	cursor: pointer;
 	text-decoration: none;
 	
@@ -427,7 +428,7 @@ nav ul li a::after{
 	font-weight: 600;
 	font-size: min(1.4vw, 1.2rem);
 
-}
+} */
 .research-image-container{
 	width: 100%;
 	text-align: center;
@@ -655,6 +656,12 @@ nav ul li a::after{
 	}
 	.sidenav-list{
 		margin-left: 0.8em !important;
+	}
+	nav ul li a:hover::after{
+		width: 0%;
+	}
+	.research-text-link{
+		white-space: normal;
 	}
 
 }
