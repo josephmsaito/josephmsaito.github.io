@@ -431,9 +431,13 @@ nav ul li a::after{
 .research-image-container{
 	width: 100%;
 	text-align: center;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 .research-image{
 	width: min(50vw,30rem);
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 
 .download-link{
