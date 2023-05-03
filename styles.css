@@ -612,6 +612,7 @@ nav ul li a::after{
 .cv-img{
 	width: 100%;
 	display: none;
+	aspect-ratio: 2550/3300;
 }
 
 /* CONTACT PAGE */
@@ -902,7 +903,7 @@ nav ul li a::after{
 		/* outline: 0.2rem solid hsl(241, 80%, 24%); */
 		/* border: 0.2rem solid rgb(34, 33, 87); */
 		border-color: rgb(34, 33, 87);
-		border-width: 1.5px;
+		border-width: 2px;
 		border-style: solid;
 		border-radius: 9999px;
 		width: fit-content;
@@ -977,7 +978,7 @@ nav ul li a::after{
 	}
 	.research-image{
 		height: auto;
-		width: 20vw;
+		width: 70vw;
 	}
 
 }
