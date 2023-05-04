@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name = "format-detection" content = "telephone=no">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+		<!-- <link rel="manifest" href="/site.webmanifest"> -->
+		<link rel="manifest" href="images/favicon_io/site.webmanifest" crossorigin="use-credentials">
+		<link rel="stylesheet" href="styles.css">
+		
+		
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			$("#wrapper").click( function() {
+				$(".icon").toggleClass("close");
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function(){
+			// Add smooth scrolling to all links
+			$("a").on('click', function(event) {
+
+				if (this.hash !== "") {
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 800, function(){
+			
+					window.location.hash = hash;
+				});
+				} // End if
+			});
+			});
+		</script>
+		
+
+		<script src="nav.js" defer> </script>
+	
+		<meta name="keywords" content="Joseph, Joey, Joseph Saito, Joseph M. Saito, Saito, U of T, University of Toronto, Fukuda lab"/>
+	  	<meta name="description" content="Joseph M. Saito is a Ph.D. candidate in the Fukuda lab at the University of Toronto. He uses psychophysical and electrophysiological methods to characterize voluntary control over the cascade of visual memory processing from encoding to maintenance to retrieval."/>
+
+		<title>Joseph Saito's Portfolio</title>
+		<!-- <meta name="google-site-verification" content="a_czpiTbf41uDmESJeWj--EGPKvYK3vfSuzV8d9wybs" /> -->
+	
+	
+	</head>
+	<body>
+		
+		<header class="primary-header flex">
+			<div class="opacity-load">
+				<a href="index.html"><img src="images/favicon/favicon_joey.svg" alt="JS squared favicon logo" class="logo crisp-img"></a>
+			</div>
+
+			<button class="mobile-nav-toggle opacity-load" aria-controls="primary-navigation" aria-expanded="false">
+				<span class="visually-hidden">Menu</span>
+				<span class="line top"></span>
+				<span class="line middle"></span>
+				<span class="line bottom"></span>
+			</button>
+
+			<nav class="opacity-load">
+				<ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="publications.html">Publications</a>
+					</li>
+					<li>
+						<a href="conferences.html">Conferences</a>
+					</li>
+					<li>
+						<a href="cv.html">CV</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="sidenav opacity-load">
+			<img src="images/joey-profile-pic_crop.png" alt="Profile picture" class="crisp-img sidenav_profile_pic">
+			<p class="sidenav_text_header-name">Joseph Saito</p>
+			<p class="sidenav_text2">Ph.D. candidate<br>Department of Psychology<br>University of Toronto</p>
+			
+			<h2 class="sidenav_text_header">Let's Connect</h2>
+			<ul class="sidenav-list">
+				<li>
+					<a href="mailto:joseph.saito@mail.utoronto.ca" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/email.svg" alt="email" class="crisp-img sidenav-icons"><h1 class="sidenav_text">Email</h1><div class="arrow"></div></a>
+				</li>
+				<li>
+					<a href="https://scholar.google.com/citations?user=EzXVZugAAAAJ&hl=en&oi=ao" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/google_scholar.svg" alt="Google Scholar" class="crisp-img sidenav-icons"><h1 class="sidenav_text">Google Scholar</h1><div class="arrow"></div></a>
+				</li>
+				<li>
+					<a href="https://osf.io/87vah/" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/open_science.svg" alt="Open Science Framework" class="crisp-img sidenav-icons"><h1 class="sidenav_text">OSF</h1><div class="arrow"></div></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/jsaito25" target=”_blank” rel=”noopener noreferrer”><img src="images/icons/twitter.svg" alt="Twitter" class="crisp-img sidenav-icons"><h1 class="sidenav_text">Twitter</h1><div class="arrow"></div></a>
+				</li>
+			</ul>
+			
+		</div>
+
+		<div class="grid">
+			
+			<div class="box1 cell opacity-load" >
+				<div class="sidenav_mobile_header">
+					<img src="images/joey-profile-pic_crop_face.png" alt="Profile picture" class="crisp-img sidenav_mobile_profile_pic">
+					<div class="sidenav_mobile_text_container">
+						<p class="sidenav_mobile_text_header-name">Joseph Saito</p>
+						<p class="sidenav_mobile_text2">Ph.D. candidate in the Department of Psychology at the University of Toronto</p>
+					</div>
+				</div>
+				<h1 class="page-heading">Conference Presentations</h1>
+				<p class="research-note">* Denotes undergraduate trainee under my supervision</p>
+
+				<h2 class="research-heading2">Talks:</h2>
+				<ul class="research-list">
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Printzlau, F., Yeo, Y., & Fukuda, K. (2022, November). <i>Attentional Prioritization in Working Memory Changes Interactions with Task-Relevant Perception.</i> Talk presented at the Object Perception, Attention, & Memory (OPAM) Conference, Boston, MA.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Kolisnyk, M., & Fukuda, K. (2022, July). <i>Judgments of Learning Reveal Conscious Access to Stimulus Memorability.</i> Talk presented at the Annual Meeting of the Canadian Society for Brain, Behavior, and Cognitive Science (CSBBCS), Halifax, NS.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Printzlau, F., Yeo, Y., & Fukuda, K. (2022, June). <i>Attentional Prioritization in Working Memory Changes Interactions with Task-Relevant Perception.</i> Talk presented at the Annual Working Memory Symposium (WMS).</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Kolisnyk, M., & Fukuda, K. (2022, May). <i>Subjective Judgments of Learning Reveal Conscious Access to Stimulus Memorability.</i> Talk presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Kolisnyk, M.*, Bae, G.Y., & Fukuda, K. (2021, June). <i>Judgments During Perceptual Comparisons Predict Distinct Forms of Memory Updating.</i> Talk presented at the Annual Working Memory Symposium (WMS).</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Kolisnyk, M.*, & Fukuda, K. (2020, November). <i>Task Demands Modulate Memory Biases Induced by Overlapping Perceptual Input.</i> Talk presented at the Object Perception, Attention, & Memory (OPAM) Conference, Austin, TX.</p>
+					</li>
+				</ul>
+
+				
+				<h2 class="research-heading2">Posters:</h2>
+				<ul class="research-list">
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b> & Fukuda, K. (2023, May). <i>Predictable learning demands enable direct down-regulation of visual long-term memory encoding.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Printzlau, F., Yeo, Y., & Fukuda, K. (2022, November). <i>Attentional Prioritization in Working Memory Changes Interactions with Task-Relevant Perception.</i> Poster presented at the Annual Meeting of the Psychonomic Society, Boston, MA.</p>
+						<div class="poster-container">
+							<iframe src="posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception.pdf" height="880" width="500" allowfullscreen="" frameborder="0">
+							</iframe>
+						</div>
+						<img class="poster-img crisp-img" style="aspect-ratio: 16001/9000;" srcset="posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception_256.webp 256w, posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception_880.webp 880w, posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception_1390.webp 1390w, posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception_1760.webp 1760w" src="posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception_1760.webp" alt="Conference poster">
+
+						<a class="download-link" style="padding-left: 0rem" href="posters/FUKUDA_Saito(2022)-Attentional prioritization in working memory changes interactions with task-relevant perception.pdf" target="_blank" download>Download PDF<img src="images/icons/download.svg" alt="Follow link to new tab" class="crisp-img download-icon"></a>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Bae, G.Y., & Fukuda, K. (2021, November). <i>Judgments During Perceptual Comparisons Predict Distinct Forms of Memory Updating.</i> Poster presented at the Object Perception, Attention, & Memory (OPAM) Conference, New Orleans, LA.</p>
+						<div class="poster-container">
+							<iframe src="posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating.pdf" height="880" width="500" allowfullscreen="" frameborder="0">
+							</iframe>
+						</div>
+						<img class="poster-img crisp-img" style="aspect-ratio: 5333/3000;" srcset="posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating_256.webp 256w, posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating_880.webp 880w, posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating_1390.webp 1390w, posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating_1760.webp 1760w" src="posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating_1760.webp" alt="Conference poster">
+
+						<a class="download-link" style="padding-left: 0rem" href="posters/FUKUDA_Saito(2021)-Judgments during perceptual comparisons predict distinct forms of memory updating.pdf" target="_blank" download>Download PDF<img src="images/icons/download.svg" alt="Follow link to new tab" class="crisp-img download-icon"></a>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Kolisnyk, M.*, & Fukuda, K. (2021, May). <i>Explicit Perceptual Comparisons Modulate Memory Biases Induced by Overlapping Visual Input.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite">Teoh, Y. J.*, Khan, S.*, Yeo, Y.*, <b>Saito, J. M.</b>, & Fukuda, K. (2021, May). <i>Comparisons with Similar Faces Induce Lasting Distortions in Face Memories.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite">Babiy, Z.*, Yeo, Y.*, <b>Saito, J. M.</b>, & Fukuda, K. (2021, May). <i>Perceptual Comparisons Induce Varying Forms of Memory Updating.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b> & Fukuda, K. (2020, May). <i>Visual memories can recover from recognition-induced memory biases.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Pete Beach, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite">Fukuda, K., Pereira, A., <b>Saito, J. M.</b>, & Tsubomi, H. (2020, May). <i>Recognition-induced memory bias (RIMB) in visual working memory.</i> Poster presented at the Annual Meeting of the Vision Sciences Society (VSS), St. Petersburg, FL.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b> & Fukuda, K. (2020, February). <i>Visual memories can recover from recognition-induced memory biases.</i> Poster presented at the Annual Meeting of the Lake Ontario Visionary Establishment (LOVE), Niagara Falls, ON.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Lam, J., Rose, N. S., Villano, M., Cougle, J., Hames, J. L., (2019, March). <i>The Efficacy of Single-Session Exposure Therapy Using Virtual Reality.</i> Poster presented at Notre Dame Advanced Diagnostics & Therapeutics External Review Session, Notre Dame, IN.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b> & Rose, N. S. (2018, May). <i>Validation of Virtual Reality for Measuring Prospective Memory in Young and Older Adults.</i> Poster presented at the Annual Meeting for the Association of Psychological Science (APS), San Francisco, CA.</p>
+					</li>
+					<li>
+						<p class="research-cite"><b>Saito, J. M.</b>, Beloff, M.*, Haile, L.*, Levy, B. J. (2017, April). <i>The effects of attentional filtering on associative long-term memory formation across the lifespan.</i> Poster presented at the Annual Meeting of the Western Psychological Association (WPA), Sacramento, CA.</p>
+					</li>
+					<li>
+						<p class="research-cite">Uchigakiuchi, T., <b>Saito, J. M.</b>, Biba, T., Chi, A., Soriano Smith, R., & Levy, B. J. (2017, April). <i>The reliability of retrieval-induced forgetting revisited.</i> Poster presented at the Annual Meeting of the Western Psychological Association (WPA), Sacramento, CA.</p>
+					</li>
+					
+				</ul>
+				
+				
+			</div>
+			
+		</div>
+	</body>
+
+</html>
