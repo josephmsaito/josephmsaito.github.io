@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-383.443,-109.147)">
+        <g id="google_scholar">
+            <g transform="matrix(1.1246,0,0,1.16772,-58.2246,-35.0774)">
+                <ellipse cx="437.194" cy="184.147" rx="25.958" ry="25" style="fill:rgb(160,195,255);"/>
+            </g>
+            <path d="M407.016,167.544L383.443,148.727L433.443,109.147L483.443,148.727L459.87,167.544L407.016,167.544Z" style="fill:rgb(53,106,195);"/>
+            <path d="M433.443,109.147L433.443,167.544L459.87,167.544L483.443,148.727L433.443,109.147Z" style="fill:rgb(53,106,195);"/>
+            <g transform="matrix(-1,0,0,1,866.887,0)">
+                <path d="M433.443,109.147L433.443,167.544L459.87,167.544L483.443,148.727L433.443,109.147Z" style="fill:rgb(66,133,244);"/>
+            </g>
+            <g transform="matrix(1.1246,0,0,1.16772,-58.2246,-35.0774)">
+                <clipPath id="_clip1">
+                    <rect x="411.235" y="159.147" width="51.917" height="14.372"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <ellipse cx="437.194" cy="184.147" rx="25.958" ry="25" style="fill:rgb(118,167,250);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
