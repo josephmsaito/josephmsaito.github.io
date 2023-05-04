@@ -376,7 +376,7 @@ nav ul li a::after{
 	color: black;
 	font-weight: 400;
 	font-size: max(1.2vw, 0.8rem);
-	padding-left: 4em;
+	padding-left: 3em;
 	cursor: pointer;
 	text-decoration: none;
 	display: block;
