@@ -1,17 +1,10 @@
 html {
 	overflow-y: scrol !important; 
 }
-/* html { 
-	margin-left: calc(100vw - 100%); 
-} */
 
 body {
 	background-color: white;
-	/* background-color: black; */
 	font-family: 'Manrope', sans-serif;
-	
-	/* overflow-x: hidden !important; */
-	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -22,9 +15,6 @@ body {
 
 .cell{
 	padding: 0.5rem;
-	/* padding-left: 0.5rem;
-	padding-right: 0.5rem; */
-	
 }
 
 
@@ -53,11 +43,8 @@ body {
 }
 
 .crisp-img{
-	/* Firefox -- I don't need it*/
-	/* image-rendering: -moz-crisp-edges;  */
 	image-rendering: -o-crisp-edges; /* Opera */
 	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
-	/* image-rendering: crisp-edges; */
 	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 
@@ -95,7 +82,6 @@ nav ul li a {
 	font-weight: 500;
 	font-size: min(4vw, 1.2rem);
 	position: relative;
-	/* transition: color 0.5s ease-in; */
 }
 nav ul li a::after{
 	position: absolute;
@@ -147,7 +133,7 @@ nav ul li a::after{
 	justify-content: space-between;
 }
 
-  /* The navigation menu links */
+/* The sidebar navigation menu links */
 .sidenav a {
 	padding: 0rem;
 	cursor: pointer;
@@ -283,25 +269,20 @@ nav ul li a::after{
 .about-text{
 	color: black;
 	font-weight: 500;
-	/* font-size: max(2vw, 1rem); */
 	font-size: max(1.2vw, 1rem);
 	margin: 1rem 0rem 1rem 0rem;
 }
 .about-text-link{
 	cursor: pointer;
 	text-decoration: none;
-	/* color: black; */
-	/* color: rgb(34,33,87); */
 	color: hsl(241, 80%, 24%);
 	font-weight: 600;
-	/* font-size: max(2vw, 1rem); */
 	font-size: max(1.2vw, 1rem);
 	margin: 0rem;
 	white-space: nowrap;
 }
 
 .about-text-link:hover{
-	/* color: hsl(241, 92%, 37%); */
 	color: hsl(241, 100%, 60%);
 	transition: color 200ms linear;
 }
@@ -325,7 +306,6 @@ nav ul li a::after{
 	gap: 1rem;
 }
 .research-list li{
-	/* margin: 0.8rem 1rem 0.8rem 0rem; */
 	margin: 0rem;
 }
 .research-cite{
