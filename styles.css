@@ -62,7 +62,7 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 999;
-	padding: 1em 3em;
+	padding: 0.5em 3em;
 	background-color: white;
 	
 }
@@ -108,7 +108,7 @@ nav ul li a::after{
 
 /* The sidebar menu */
 .sidenav {
-	margin-top: 6rem;
+	margin-top: 6.5rem;
 	margin-left: 2em;
 	width: 13rem; 
 	position: fixed;
@@ -116,7 +116,10 @@ nav ul li a::after{
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	padding: 1rem;
+	padding-top: 0rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
 }
 .sidenav-list {
 	list-style-type: none;
@@ -503,7 +506,7 @@ nav ul li a::after{
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 4;
-	padding-top: 6rem;
+	padding-top: 6.5rem;
 	z-index: 10;
 }
 
