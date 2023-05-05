@@ -108,7 +108,7 @@ nav ul li a::after{
 
 /* The sidebar menu */
 .sidenav {
-	margin-top: 6.5rem;
+	margin-top: 7rem;
 	margin-left: 2em;
 	width: 13rem; 
 	position: fixed;
@@ -506,7 +506,7 @@ nav ul li a::after{
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 4;
-	padding-top: 6.5rem;
+	padding-top: 7rem;
 	z-index: 10;
 }
 
