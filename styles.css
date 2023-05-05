@@ -366,7 +366,7 @@ nav ul li a::after{
 }
 .cv-download-link{
 	padding-left: 0rem;
-	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 	color: black;
 	font-weight: 400;
 	font-size: max(1.2vw, 0.8rem);
@@ -725,7 +725,7 @@ nav ul li a::after{
 		display: none;
 	}
 	.cv-download-link{
-		display: block;
+		display: inline-block;
 	}
 	.main-text2{
 		margin: 0.5rem 0rem 0.5rem 0rem;
