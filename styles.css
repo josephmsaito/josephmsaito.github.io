@@ -108,7 +108,7 @@ nav ul li a::after{
 
 /* The sidebar menu */
 .sidenav {
-	margin-top: 7rem;
+	margin-top: 6.5rem;
 	margin-left: 2em;
 	width: 13rem; 
 	position: fixed;
@@ -391,6 +391,20 @@ nav ul li a::after{
 	transform: translateY(4px);
 	transition: transform 200ms linear;
 }
+
+.hyperlink-icon{
+	display: inline-block;
+	height: 0.7em;
+	aspect-ratio: 1/1;
+	margin: 0rem 0.2em 0em 0.2rem;
+	cursor: pointer;
+}
+
+.download-link:hover .hyperlink-icon{
+	transform: translateY(-2px) translateX(2px);
+	transition: transform 200ms linear;
+}
+
 .cv-download-link:hover{
 	color: rgb(11, 8, 181);
 	transition: color 200ms linear;
@@ -506,7 +520,7 @@ nav ul li a::after{
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 4;
-	padding-top: 7rem;
+	padding-top: 6.5rem;
 	z-index: 10;
 }
 
