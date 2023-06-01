@@ -94,6 +94,8 @@ nav ul li a::after{
 	background-color: black;
 	height: 2px;
 	border-radius: 9999px;
+	-moz-border-radius:9999px; 
+  	-webkit-border-radius: 9999px;
 }
 nav ul li a:hover::after{
 	width: 100%;
@@ -190,6 +192,8 @@ nav ul li a::after{
 	width: 11rem;
 	aspect-ratio: 280/270;
 	border-radius: 30%;
+	-moz-border-radius: 30%; 
+  	-webkit-border-radius: 30%;
 }
 
 .arrow {
@@ -202,6 +206,8 @@ nav ul li a::after{
 	display: inline-block;
     margin-left: 0.2rem;
 	border-radius: 9999px;
+	-moz-border-radius:9999px; 
+  	-webkit-border-radius: 9999px;
 	opacity: 0;
 	transform: translateX(0px);
 	
@@ -213,6 +219,8 @@ nav ul li a::after{
   height: 2px;
   width: 8px;
   border-radius: 9999px;
+  -moz-border-radius:9999px;
+  -webkit-border-radius: 9999px;	
   opacity: 0;
   
 }
@@ -243,6 +251,8 @@ nav ul li a::after{
 	width: max(2.5rem,4vw);
 	aspect-ratio: 1;
 	border-radius: 10%;
+	-moz-border-radius: 10%; 
+  	-webkit-border-radius: 10%;
 }
 
 .logo:hover{
@@ -503,6 +513,8 @@ nav ul li a::after{
 	height: 3px;
 	background-color: black;
 	border-radius: 9999px;
+	-moz-border-radius:9999px; 
+  	-webkit-border-radius: 9999px;
 	transition: all cubic-bezier(0.26,0.1,0.27,1.55) 0.35s;
 }
 .top{
@@ -601,6 +613,8 @@ nav ul li a::after{
 		aspect-ratio: 1;
 		right: 1rem;
 		border-radius: 9999px;
+		-moz-border-radius:9999px; 
+  		-webkit-border-radius: 9999px;
 		justify-content: center;
 	}
 
@@ -691,6 +705,8 @@ nav ul li a::after{
 		border-width: 2px;
 		border-style: solid;
 		border-radius: 9999px;
+		-moz-border-radius:9999px; 
+  		-webkit-border-radius: 9999px;
 		width: fit-content;
 	
 	}
@@ -698,6 +714,8 @@ nav ul li a::after{
 		width: 4rem;
 		aspect-ratio: 1/1;
 		border-radius: 50%;
+		-moz-border-radius:50%; 
+  		-webkit-border-radius: 50%;
 	}
 	.sidenav_mobile_text_header-name{
 		font-size: 0.9rem;
